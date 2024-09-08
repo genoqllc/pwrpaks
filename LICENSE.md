@@ -4,6 +4,6 @@ Designs, software, and hardware components in this repository are copyright (c) 
 
 Different aspects of this project leverage different licenses:
 
-- Sofware designs and code are available under the [MIT Open Source license](https://opensource.org/license/mit).
-- Harware designs are available under the [CERN-OHL-P license](https://opensource.org/license/cern-ohl-p).
+- Software designs and code are available under the [MIT Open Source license](https://opensource.org/license/mit).
+- Hardware designs are available under the [CERN-OHL-P license](https://opensource.org/license/cern-ohl-p).
 - Rights to Portal Electronics logos, marks, and creative assets are reserved by Genoq LLC dba Portal Electronics. You may not use Portal or Genoq creative assets in derivative works.
