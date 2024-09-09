@@ -72,7 +72,7 @@ pos: $(OUTPUTS_DIR)
 		$(BOARD)
 
 	# prep the pos file for JLCPCB
-	@sed -i 's/Ref,Val,Package,PosX,PosY,Rot,Side/Designator,Val,Package,Mid X,Mid Y,Rotation,Layer/' $(OUTPUTS_DIR)/$(PROJECT_NAME)-$(GIT_TAG).pos
+	@sed -i 's/Ref,Val,Package,PosX,PosY,Rot,Side/Designator,Val,Package,Mid X,Mid Y,Rotation,Layer/' $(OUTPUTS_DIR)/$(PROJECT_NAME)-$(GIT_TAG).pos.csv
 
 .PHONY: zip
 zip: $(OUTPUTS_DIR)
