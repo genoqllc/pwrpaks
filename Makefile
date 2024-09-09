@@ -11,7 +11,7 @@ LAYERS := F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Ma
 GIT_TAG := $(shell git rev-parse --short HEAD)
 
 .PHONY: build
-build: clean $(OUTPUTS_DIR) drc gerbers drill bom zip
+build: clean $(OUTPUTS_DIR) drc gerbers drill bom pos zip
 	@echo "Building..."
 
 $(OUTPUTS_DIR):
