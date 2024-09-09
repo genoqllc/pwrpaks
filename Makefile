@@ -8,7 +8,7 @@ PREVIOUS_DIR := $(shell pwd)
 
 LAYERS := F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,Edge.Cuts
 
-GIT_TAG := $(shell git rev-parse --short HEAD)
+GIT_TAG := $(shell git describe --exact-match --tags 2> /dev/null || git rev-parse --short HEAD)
 
 .PHONY: build
 build: clean $(OUTPUTS_DIR) drc gerbers drill bom pos zip
