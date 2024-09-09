@@ -476,7 +476,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C45783"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1349,6 +1349,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C552852"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1839d2c7-d4fa-4ece-8b68-2f682100044f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a4ae8547-0079-436a-8b80-4c6be78d620f/681ce5be-cfce-4294-a31c-8f2fe4386a5a")
 		(sheetname "Power Prep")
@@ -1764,6 +1777,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2d65160-b728-401f-8393-d13bcbd389eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a4ae8547-0079-436a-8b80-4c6be78d620f/a3f29d39-85f4-43b1-aa77-803ffaad882c")
 		(sheetname "Power Prep")
@@ -2005,6 +2031,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54db163e-f65b-4e6b-a36a-24b616cb7b74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a4ae8547-0079-436a-8b80-4c6be78d620f/1c393769-9f50-45cc-bb1d-c0c21c51aaf9")
 		(sheetname "Power Prep")
@@ -2199,7 +2238,7 @@
 				)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "100nF"
 			(at 0 1.68 180)
 			(layer "F.Fab")
 			(uuid "f86c1d86-c3d3-482d-ae9c-9124a7eadf1a")
@@ -2243,6 +2282,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7411876"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc720404-586d-4974-9ea6-86b33da12e1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2760,6 +2812,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C552852"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52d58156-2efa-4357-8d15-d23f5dc2f2e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a4ae8547-0079-436a-8b80-4c6be78d620f/dd6262cf-2f9a-41d4-b325-47c276749629")
 		(sheetname "Power Prep")
@@ -3172,6 +3237,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77833661-26af-4d2c-b65c-fdb029542067")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4329,6 +4407,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C552852"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "817db3b8-f957-4850-aca7-3f462cf7ffc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a4ae8547-0079-436a-8b80-4c6be78d620f/aad77214-3ceb-4343-b154-fbfa72a33891")
 		(sheetname "Power Prep")
@@ -4744,6 +4835,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C7411876"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac24dce0-2eff-4733-9488-3df74be0b6ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a4ae8547-0079-436a-8b80-4c6be78d620f/510f7429-8b16-4f47-959c-9b2848f24310")
 		(sheetname "Power Prep")
@@ -4985,6 +5089,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C6549338"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7a5decf-9266-47ea-a424-71461fe6c86a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a4ae8547-0079-436a-8b80-4c6be78d620f/b0dc166c-4572-450c-94e5-9b8f87c1320b")
 		(sheetname "Power Prep")
@@ -5192,6 +5309,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70365b57-0f34-47df-a970-5af857a80185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5680,6 +5810,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab36c52c-2a15-4396-beea-7646130caf0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6211,6 +6354,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5899114a-a03a-44c6-9f61-d4704d929d14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a4ae8547-0079-436a-8b80-4c6be78d620f/d44a00cc-d93c-4755-8f83-1e97ff3575c0")
 		(sheetname "Power Prep")
@@ -6449,6 +6605,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "490697c8-e308-4ea6-8aea-3bc31f2b5eb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
