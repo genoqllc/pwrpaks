@@ -2312,6 +2312,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3717582"
+			(at 198.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7b0e9daa-4269-400d-b8a0-d92e2be386d4")
 		)
@@ -2516,6 +2525,15 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C73326"
+			(at 115.57 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,6 +2877,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 93.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "680bab85-3c12-49e6-9856-ddc014848dd7")
 		)
@@ -3056,6 +3083,15 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 73.66 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C73326"
+			(at 73.66 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,6 +3529,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C73326"
+			(at 73.66 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c603cdde-95d9-4d62-adb1-41b83933e5ca")
 		)
@@ -3698,6 +3743,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C73326"
+			(at 73.66 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ed2d4d9-5666-44aa-8c7e-e8a77525e6ed")
 		)
@@ -3826,6 +3880,15 @@
 			)
 		)
 		(property "Description" "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86781"
 			(at 78.74 127 0)
 			(effects
 				(font
@@ -3964,7 +4027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_4020_10251Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 186.69 119.38 0)
 			(effects
 				(font
