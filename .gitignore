@@ -1,0 +1,4 @@
+*.zip
+*-backups/
+*_autosave*
+*.lck

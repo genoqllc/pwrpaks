@@ -1,0 +1,10 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J2";"PinHeader_2x04_P2.54mm_Vertical";1;"Conn_01x08_Pin";;;
+2;"U2";"SOT-23";1;"LM4040DBZ-10";;;
+3;"U1";"SOT-223-3_TabPin2";1;"LD1117S33TR_SOT223";;;
+4;"R1";"R_4020_10251Metric";1;"2k2Ω";;;
+5;"J1";"IDC-Header_2x08_P2.54mm_Vertical";1;"Eurorack_Power";;;
+6;"FB4,FB3,FB2,FB1";"L_0603_HandSolder";4;"600R@100MHz";;;
+7;"D3,D2,D1";"D_SOD-123";3;"30V";;;
+8;"C10,C9,C7,C6,C5,C4,C3,C2,C1";"C_0805_HandSolder";9;"22uF";;;
+9;"C8";"C_0805_HandSolder";1;"10uF";;;
