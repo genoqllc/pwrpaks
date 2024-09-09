@@ -65,7 +65,7 @@ bom: $(OUTPUTS_DIR)
 pos: $(OUTPUTS_DIR)
 	@echo "Generating pick and place files..."
 	kicad-cli pcb export pos \
-		--output $(OUTPUTS_DIR)/$(PROJECT_NAME)-$(GIT_TAG).pos \
+		--output $(OUTPUTS_DIR)/$(PROJECT_NAME)-$(GIT_TAG).pos.csv \
 		--format csv \
 		--units mm \
 		--side both \
