@@ -1,0 +1,6 @@
+*.zip
+*-backups/
+*_autosave*
+*.lck
+fp-info-cache
+hardware/build/
