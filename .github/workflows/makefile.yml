@@ -1,4 +1,4 @@
-name: Build and attach outputs on tagged release
+name: Build project
 
 on:
   push:
@@ -20,6 +20,7 @@ jobs:
         sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
         sudo apt update
         sudo apt install --install-recommends kicad
+        sudo apt install xsltproc
 
     - name: Run check
       run: make drc
