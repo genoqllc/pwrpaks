@@ -4109,7 +4109,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2Ω"
+		(property "Value" "2k2R"
 			(at 186.69 115.57 90)
 			(effects
 				(font
