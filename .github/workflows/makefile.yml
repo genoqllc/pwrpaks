@@ -1,0 +1,38 @@
+name: Build and attach outputs on tagged release
+
+on:
+  push:
+    tags:
+      - '*'
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install dependencies
+      run: |
+        sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
+        sudo apt update
+        sudo apt install --install-recommends kicad
+
+    - name: Run check
+      run: make drc
+
+    - name: Run build
+      run: make build
+
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: |
+          hardware/builds/*.zip
+          hardware/builds/*.pos.csv
+          hardware/builds/*.bom.csv
+          hardware/builds/*.bom.xml
