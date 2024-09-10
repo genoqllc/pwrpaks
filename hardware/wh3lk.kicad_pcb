@@ -10,7 +10,7 @@
 	(title_block
 		(title "wh3lk Eurorack Power Pak")
 		(date "2024-09-09")
-		(rev "v2.1.0a")
+		(rev "v2.1.1a")
 		(company "PORTAL ELECTRONICS")
 	)
 	(layers
@@ -5042,7 +5042,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2Ω"
+		(property "Value" "2k2R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "690752ec-ab6c-4d41-be91-09e367cffbeb")
