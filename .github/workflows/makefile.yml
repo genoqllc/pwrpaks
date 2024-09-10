@@ -30,10 +30,12 @@ jobs:
 
     - name: Release
       uses: softprops/action-gh-release@v2
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       if: startsWith(github.ref, 'refs/tags/')
       with:
         files: |
-          hardware/builds/*.zip
-          hardware/builds/*.pos.csv
-          hardware/builds/*.bom.csv
-          hardware/builds/*.bom.xml
+          hardware/build/*.zip
+          hardware/build/*.pos.csv
+          hardware/build/*.bom.csv
+          hardware/build/*.bom.xml
