@@ -16,6 +16,9 @@ A lil eurorack power module, primilary for prototyping. Takes 16 pin eurorack po
 
 Upon merging to `main` and creating a release, the [`Makefile.yml` Github Action](https://github.com/genoqllc/wh3lk/actions/workflows/makefile.yml) will build the project and attach the following to the release:
 
-- The main board and Gerbers zip
-- A BOM in CSV format, ready for JCLPCB assembly
-- A POS in CSV format, ready for JCLPCB assembly
+- `wh3lk-$(GIT_TAG).zip` - Gerbers, drill files, DRC report
+- `wh3lk-$(GIT_TAG).bom.csv` - A BOM in CSV format, ready for JCLPCB assembly
+- `wh3lk-$(GIT_TAG).bom.xml` - Original KiCad XML BOM
+- `wh3lk-$(GIT_TAG).pos.csv` - A POS in CSV format, ready for JCLPCB assembly
+
+![image](https://github.com/user-attachments/assets/caa703a8-b0da-4651-9198-f886544c9dc1)
