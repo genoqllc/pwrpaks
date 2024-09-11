@@ -1,6 +1,6 @@
 # wh3lk submodular power pack
 
-A lil eurorack power module, primilary for prototyping. Takes 16 pin eurorack power and outputs:
+A lil [eurorack power module](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Fgenoqllc%2Fwh3lk%2Fblob%2Fmain%2Fhardware%2Fwh3lk.kicad_pcb), primilary for prototyping. Takes 16 pin eurorack power and outputs:
 
 - +12V
 - +5V
