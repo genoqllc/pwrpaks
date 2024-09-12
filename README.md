@@ -17,8 +17,8 @@ A lil [eurorack power module](https://kicanvas.org/?github=https%3A%2F%2Fgithub.
 Upon merging to `main` and creating a release, the [`Makefile.yml` Github Action](https://github.com/genoqllc/wh3lk/actions/workflows/makefile.yml) will build the project and attach the following to the release:
 
 - `wh3lk-$(GIT_TAG).zip` - Gerbers, drill files, DRC report
-- `wh3lk-$(GIT_TAG).bom.csv` - A BOM in CSV format, ready for JCLPCB assembly
+- `wh3lk-$(GIT_TAG).bom.csv` - A BOM in CSV format, ready for JLCPCB assembly
 - `wh3lk-$(GIT_TAG).bom.xml` - Original KiCad XML BOM
-- `wh3lk-$(GIT_TAG).pos.csv` - A POS in CSV format, ready for JCLPCB assembly
+- `wh3lk-$(GIT_TAG).pos.csv` - A POS in CSV format, ready for JLCPCB assembly
 
 ![image](https://github.com/user-attachments/assets/caa703a8-b0da-4651-9198-f886544c9dc1)
