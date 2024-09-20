@@ -7,7 +7,7 @@
 	(title_block
 		(title "wh3lk Power Pack - Power Inputs")
 		(date "2024-09-08")
-		(rev "v2.0.0")
+		(rev "__VER__")
 		(company "Portal Electronics")
 	)
 	(lib_symbols
