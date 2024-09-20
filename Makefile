@@ -25,7 +25,7 @@ $(VERSIONED_BOARD):
 	@cp $(BOARD) $(VERSIONED_BOARD)
 	@sed -i 's/__VER__/$(GIT_TAG)/' $(VERSIONED_BOARD)
 	@cp $(SCHEMATICS) $(OUTPUTS_DIR)
-	rename 's/\.kicad_sch/.$(GIT_TAG).kicad_sch/' $(OUTPUTS_DIR)/*.kicad_sch
+	@rename 's/\.kicad_sch/.$(GIT_TAG).kicad_sch/' $(OUTPUTS_DIR)/*.kicad_sch
 
 .PHONY: ver
 ver: $(OUTPUTS_DIR) $(VERSIONED_BOARD)
@@ -65,7 +65,7 @@ drill: $(OUTPUTS_DIR) $(VERSIONED_BOARD)
 .PHONY: bom
 bom: $(OUTPUTS_DIR) $(VERSIONED_BOARD)
 	@echo "Generating BOM..."
-	@for schematic in $(OUTPUTS_DIR)/*.kicad_sch; do \
+	for schematic in $(OUTPUTS_DIR)/*.kicad_sch; do \
 		kicad-cli sch export python-bom \
 			--output $$schematic.bom.xml \
 			$$schematic; \
@@ -75,7 +75,7 @@ bom: $(OUTPUTS_DIR) $(VERSIONED_BOARD)
 			$$schematic.bom.xml; \
 	done
 
-	awk '(NR == 1) || (FNR > 1)' $(OUTPUTS_DIR)/*.csv > $(OUTPUTS_DIR)/$(PROJECT_NAME).$(GIT_TAG).bom.csv
+	@awk '(NR == 1) || (FNR > 1)' $(OUTPUTS_DIR)/*.csv > $(OUTPUTS_DIR)/$(PROJECT_NAME).$(GIT_TAG).bom.csv
 
 
 .PHONY: pos
@@ -88,7 +88,6 @@ pos: $(OUTPUTS_DIR) $(VERSIONED_BOARD)
 		--side both \
 		$(VERSIONED_BOARD)
 
-	# prep the pos file for JLCPCB
 	@sed -i 's/Ref,Val,Package,PosX,PosY,Rot,Side/Designator,Val,Package,Mid X,Mid Y,Rotation,Layer/' $(OUTPUTS_DIR)/$(PROJECT_NAME)-$(GIT_TAG).pos.csv
 
 .PHONY: zip
