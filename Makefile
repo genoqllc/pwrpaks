@@ -3,6 +3,7 @@ PROJECT_NAME := wh3lk
 
 BOARD := hardware/wh3lk.kicad_pcb
 SCHEMATIC := hardware/wh3lk.kicad_sch
+SCHEMATICS := hardware/*.kicad_sch
 OUTPUTS_DIR := hardware/build
 PREVIOUS_DIR := $(shell pwd)
 
