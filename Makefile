@@ -12,7 +12,6 @@ LAYERS := F.Cu,In1.Cu,In2.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Ma
 GIT_TAG := $(shell git describe --exact-match --tags 2> /dev/null || git rev-parse --short HEAD)
 
 VERSIONED_BOARD := $(OUTPUTS_DIR)/$(PROJECT_NAME).$(GIT_TAG).kicad_pcb
-VERSIONED_SCHEMATIC := $(OUTPUTS_DIR)/prep.$(GIT_TAG).kicad_sch
 
 .PHONY: build
 build: clean $(OUTPUTS_DIR) $(VERSIONED_BOARD) drc gerbers drill bom pos zip
@@ -26,7 +25,6 @@ $(VERSIONED_BOARD):
 	@cp $(BOARD) $(VERSIONED_BOARD)
 	@sed -i 's/__VER__/$(GIT_TAG)/' $(VERSIONED_BOARD)
 	@cp $(SCHEMATICS) $(OUTPUTS_DIR)
-	# @sed -i 's/__VER__/$(GIT_TAG)/' $(VERSIONED_SCHEMATIC)
 	rename 's/\.kicad_sch/.$(GIT_TAG).kicad_sch/' $(OUTPUTS_DIR)/*.kicad_sch
 
 .PHONY: ver
