@@ -157,7 +157,7 @@
 	(net 6 "VREF-10")
 	(net 7 "Net-(D1-A)")
 	(net 8 "Net-(D2-A)")
-	(net 9 "Net-(D3-A)")
+	(net 9 "Net-(D3-K)")
 	(net 10 "RACK+5V")
 	(net 11 "RACK+12V")
 	(net 12 "RACK-12V")
@@ -1266,7 +1266,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
-			(at 0.01 -1.65 -90)
+			(at 0.01 -1.65 270)
 			(layer "F.SilkS")
 			(uuid "8fcca391-12ae-4bf5-88fe-6754e3767c82")
 			(effects
@@ -1277,7 +1277,7 @@
 			)
 		)
 		(property "Value" "30V"
-			(at 0 2.1 -90)
+			(at 0 2.1 270)
 			(layer "F.Fab")
 			(uuid "f058a2e1-d59c-487b-8532-f237e235dbaf")
 			(effects
@@ -1673,7 +1673,7 @@
 			(uuid "502536d9-d574-46be-9361-a72cbe71e2ff")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "c1f40590-028e-4595-88e6-fd9d13ca4a1b")
 			(effects
@@ -1687,7 +1687,7 @@
 			(at -1.635 0 90)
 			(size 0.91 1.22)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 2 "-12V")
+			(net 9 "Net-(D3-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "21f43c7f-3c0e-4fb3-8719-28aabba6fafa")
@@ -1696,7 +1696,7 @@
 			(at 1.635 0 90)
 			(size 0.91 1.22)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 9 "Net-(D3-A)")
+			(net 2 "-12V")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "57bb4043-3090-4f82-9d19-775c6af8f8c6")
@@ -2285,7 +2285,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7411876"
+		(property "LCSC" "C77456"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4104,7 +4104,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3717582"
+		(property "LCSC" "C201738"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4835,7 +4835,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17314042"
+		(property "LCSC" "C17024"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5089,7 +5089,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C6549338"
+		(property "LCSC" "C284423"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5733,7 +5733,7 @@
 			(size 1.05 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 9 "Net-(D3-A)")
+			(net 9 "Net-(D3-K)")
 			(pintype "passive")
 			(uuid "2f353c06-df42-4b06-a246-0e8761882361")
 		)
@@ -22255,20 +22255,20 @@
 		(uuid "5c976af6-4154-48cf-954c-a08d72597e00")
 	)
 	(segment
-		(start 73.5 78.27)
-		(end 76.805 78.27)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "6482c967-a1df-4e91-8c1e-059f278d2f8e")
-	)
-	(segment
-		(start 76.805 78.27)
+		(start 76.075 77.575)
 		(end 77.5 77.575)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "81465d39-b6da-4f63-a097-505aa1052e04")
+		(uuid "7149a3c9-7726-4db4-a846-6b8d18cb5d8b")
+	)
+	(segment
+		(start 73.5 75)
+		(end 76.075 77.575)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "9f302f2d-8e2e-414e-87cf-3700345c1080")
 	)
 	(segment
 		(start 82 81.51)
@@ -22849,20 +22849,20 @@
 		(uuid "63cfb874-d6af-43ea-ac6a-75c5ffca4e1b")
 	)
 	(segment
-		(start 71 75)
-		(end 70 76)
+		(start 71.23 76)
+		(end 73.5 78.27)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "07275512-e3a7-4790-bb65-002fbe006bb8")
+		(uuid "78f90926-e328-435e-b8a8-02fd1e92b373")
 	)
 	(segment
-		(start 73.5 75)
-		(end 71 75)
+		(start 70 76)
+		(end 71.23 76)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "73ebc3bf-99bc-40b9-976f-9cea91a8ba40")
+		(uuid "f6ee3e8d-7070-4897-824e-2f3af4a574e5")
 	)
 	(segment
 		(start 61.46 71.58)
