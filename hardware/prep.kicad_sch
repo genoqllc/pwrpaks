@@ -3301,7 +3301,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 86.36 69.85 180)
+		(at 86.36 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
